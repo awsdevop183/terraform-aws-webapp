@@ -55,7 +55,6 @@ terraform-aws-webapp/
 - **RDS**: MySQL or PostgreSQL in private subnets with encryption
 - **S3**: Application code stored and synced to EC2 instances
 - **Security**: Least-privilege security groups, no public DB access
-- **Monitoring**: CloudWatch alarms, VPC Flow Logs, RDS Performance Insights
 
 ## 🚀 Quick Start
 
