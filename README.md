@@ -66,7 +66,7 @@ cd terraform
 cp terraform.tfvars.example terraform.tfvars
 
 # 3. Edit terraform.tfvars (set your db_password!)
-nano terraform.tfvars
+vi terraform.tfvars
 
 # 4. Initialize Terraform
 terraform init
