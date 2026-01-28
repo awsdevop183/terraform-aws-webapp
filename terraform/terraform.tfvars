@@ -13,8 +13,8 @@ private_subnet_cidrs = ["10.0.10.0/24", "10.0.20.0/24"]
 
 # EC2
 ec2_instance_type = "t3.micro"
-key_name          = ""                # Optional: your SSH key name
-allowed_ssh_cidrs = []                # Optional: ["YOUR_IP/32"]
+key_name          = "mackey"                # Optional: your SSH key name
+allowed_ssh_cidrs = ["49.43.231.243/32"]                # Optional: ["YOUR_IP/32"]
 
 # RDS
 db_engine            = "mysql"
